@@ -56,5 +56,5 @@ int main() {
 	a1.back_function();
 	a1.size_function();
 	a1.empty_function();
-
+	return 0;
 }

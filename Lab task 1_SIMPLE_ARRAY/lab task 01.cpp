@@ -1,3 +1,4 @@
+// array size and elements initialization
 #include <iostream>
 using namespace std;
 template <typename T>

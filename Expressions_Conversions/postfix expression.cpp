@@ -73,4 +73,5 @@ int main() {
 	cin >> postfix;
 	int result=function(postfix);
 	cout << "result : " << result << endl;
+	return 0;
 }

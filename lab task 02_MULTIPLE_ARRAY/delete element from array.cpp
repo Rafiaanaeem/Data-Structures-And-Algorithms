@@ -59,6 +59,5 @@ int main() {
     deleteFromIndex(ptr, size, index);
     cout << "Element deleted from index " << index << "." << endl;
     display(ptr, size);
-
     return 0;
 }

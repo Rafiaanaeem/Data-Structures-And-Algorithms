@@ -16,7 +16,6 @@ public:
 class tree {
 private:
     node* rootNode;
-
 public:
     tree() {
         rootNode = nullptr;

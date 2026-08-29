@@ -29,7 +29,7 @@ node* right_rotation(node* root) {
     node* child_right = child->right;
     child->right = root;
     root->left = child_right;
-
+      // to calculate height
     root->height = 1 + max(evaluate_height(root->left), evaluate_height(root->right));
     child->height = 1 + max(evaluate_height(child->left), evaluate_height(child->right));
     return child;

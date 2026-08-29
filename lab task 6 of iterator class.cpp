@@ -192,7 +192,6 @@ public:
             cout << "List is empty." << endl;
             return;
         }
-
         for (forward_list_iterator it = begin(); it != end(); ++it) {
             cout << *it << "\t";
         }

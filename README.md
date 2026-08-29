@@ -1,4 +1,4 @@
-# Data Structures
+# Data Structures And Algorithms
 
 This repository contains my work for the **Data Structures** course.
 

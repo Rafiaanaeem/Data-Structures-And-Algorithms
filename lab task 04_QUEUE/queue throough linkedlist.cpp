@@ -102,7 +102,6 @@ public:
         }
     }
 };
-
 int main() {
     queue q1;
     queue q2;

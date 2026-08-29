@@ -116,7 +116,6 @@ int main() {
 	cout << "first element of queue 2 is " << q2.getfront() << endl;
 	cout << "Last element of queue 1: " << q1.back() << endl;
 	cout << "Last element of queue 2: " << q2.back() << endl;
-
 	cout << "Queue 1 is " << (q1.empty() ? "empty" : "not empty") << endl;
 	cout << "Queue 2 is " << (q2.empty() ? "empty" : "not empty") << endl;
 

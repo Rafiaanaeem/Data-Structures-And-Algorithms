@@ -156,6 +156,5 @@ int main() {
     cout << "Stack 1 is less? " << (s1 < s2 ? "Yes" : "No") << endl;
     cout << "Stack 1 is greater or equal? " << (s1 >= s2 ? "Yes" : "No") << endl;
     cout << "Stack 1 is less or equal? " << (s1 <= s2 ? "Yes" : "No") << endl;
-
     return 0;
 }

@@ -14,7 +14,6 @@ public:
         top = -1;
     }
 
-  
     void push(int val) {
         if (top == size - 1) { 
             cout << "Stack Overflow" << endl;

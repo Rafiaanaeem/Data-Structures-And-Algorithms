@@ -72,7 +72,6 @@ public:
 };
 
 int main() {
-  
 
     Stack s;
     s.push(10);

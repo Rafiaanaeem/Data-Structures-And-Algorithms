@@ -190,7 +190,6 @@ void del() {
         for (int j = index; j < n - 1; j++) {
             arr[j] = arr[j + 1];
         }
-
         n--;
         cout << "Element deleted successfully.\n";
     }

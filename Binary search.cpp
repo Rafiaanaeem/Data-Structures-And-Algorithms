@@ -18,6 +18,7 @@ int binarysearch(int array[], int size, int ele) {
 	}
 	return -1;
 }
+
 int main() {
 	int array[SIZE];
 	//input the array

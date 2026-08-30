@@ -59,7 +59,6 @@ public:
             cout << "List is full.\n";
             return;
         }
-
         node* temp = head;
         while (temp != NULL && temp->data != afterValue) {
             temp = temp->link;
@@ -156,7 +155,7 @@ public:
         cout << "Whole list is empty now.\n";*/
        return head = NULL;
     }
-
+// display function
     void display() {
         if (head == NULL) {
             cout << "List is empty.\n";

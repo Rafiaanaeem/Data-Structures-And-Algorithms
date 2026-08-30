@@ -17,7 +17,6 @@ public:
 class circularlinkedlist {
 private:
     node* head;
-
 public:
     circularlinkedlist() {
         head = NULL;

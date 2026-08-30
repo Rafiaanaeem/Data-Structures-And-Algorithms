@@ -24,6 +24,7 @@ int evaluate_balance(node* root) {
     int b_f = evaluate_height(root->left) - evaluate_height(root->right);
     return b_f;
 }
+
 node* right_rotation(node* root) {
     node* child = root->left;
     node* child_right = child->right;

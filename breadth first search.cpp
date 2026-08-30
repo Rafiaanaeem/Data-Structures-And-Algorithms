@@ -2,7 +2,6 @@
 using namespace std;
 
 const int MAX = 100; // Maximum number of nodes
-
 class Graph {
 private:
     int adj[MAX][MAX];   // Adjacency matrix
@@ -79,9 +78,9 @@ int main() {
 
     /*
       Undirected Graph:
-      0 — 1 — 3
+      0 ï¿½ 1 ï¿½ 3
       |
-      2 — 4 — 5
+      2 ï¿½ 4 ï¿½ 5
     */
 
     cout << "BFS starting from node 0: ";

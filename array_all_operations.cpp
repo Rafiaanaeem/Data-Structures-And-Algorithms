@@ -198,7 +198,6 @@ void del() {
         cout << "Element not found.\n";
     }
 
-
     cout << "Press Enter to go back...";
     cin.ignore();
     cin.get();

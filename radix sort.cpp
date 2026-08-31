@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-
 int find_index_of_alph(const string& str, int pos) {
     int s = str.size();
     int size=int(s);

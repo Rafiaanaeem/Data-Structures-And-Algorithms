@@ -48,6 +48,5 @@ int main() {
 
     cout << "Sorted (Max-Heap / Ascending): ";
     printArray(a, n);
-
     return 0;
 }
